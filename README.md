@@ -36,3 +36,4 @@ e) Interfaz que se impone a Juguete y Libro.
 
 
 ### Ejercicio 6
+a) 
