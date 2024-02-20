@@ -19,3 +19,6 @@ double calcular();
 void imprimirCalculo();
 
 }
+
+### Ejercicio 4
+No es error pero los "public" y el "final" no tienen utilidad ya que lo añade el IDE solo luego, las variables tienen que tener un valor asignado si o si, y no puede no tener ningún valor
