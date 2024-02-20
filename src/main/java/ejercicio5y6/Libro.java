@@ -1,4 +1,4 @@
-package ejercicio5;
+package ejercicio5y6;
 
 public class Libro extends Bienes implements Imponible{
     private String autor;
@@ -11,7 +11,9 @@ public class Libro extends Bienes implements Imponible{
     @Override
     public String toString() {
         return "Libro{" +
-                "autor='" + autor + '\'' +
+                "descripcion='" + descripcion + '\'' +
+                ", precio=" + precio +
+                ", autor='" + autor + '\'' +
                 '}';
     }
 

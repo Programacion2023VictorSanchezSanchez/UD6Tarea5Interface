@@ -1,4 +1,4 @@
-package ejercicio5;
+package ejercicio5y6;
 
 public class Juguete extends Bienes implements Imponible{
 
@@ -12,7 +12,9 @@ public class Juguete extends Bienes implements Imponible{
     @Override
     public String toString() {
         return "Juguete{" +
-                "edadMinima=" + edadMinima +
+                "descripcion='" + descripcion + '\'' +
+                ", precio=" + precio +
+                ", edadMinima=" + edadMinima +
                 '}';
     }
 

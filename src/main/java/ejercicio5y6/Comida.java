@@ -1,4 +1,4 @@
-package ejercicio5;
+package ejercicio5y6;
 
 public class Comida extends Bienes{
     private double calorias;
@@ -11,7 +11,9 @@ public class Comida extends Bienes{
     @Override
     public String toString() {
         return "Comida{" +
-                "calorias=" + calorias +
+                "descripcion='" + descripcion + '\'' +
+                ", precio=" + precio +
+                ", calorias=" + calorias +
                 '}';
     }
 }

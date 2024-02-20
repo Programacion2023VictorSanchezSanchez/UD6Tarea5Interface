@@ -1,4 +1,4 @@
-package ejercicio5;
+package ejercicio5y6;
 
 public interface Imponible {
     double impuesto = 6;
