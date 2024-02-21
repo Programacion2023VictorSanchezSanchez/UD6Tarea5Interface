@@ -36,4 +36,21 @@ e) Interfaz que se impone a Juguete y Libro.
 
 
 ### Ejercicio 6
-a) 
+a) Si
+
+b) Sería tipo Bienes
+
+Bienes [] lista = new Bienes[4];
+
+        lista[0] = new Juguete("Miau", 15, 5);
+        
+        lista[1] = new Comida("macarrone", 1, 60);
+        
+        lista[2] = new Libro("mondongo", 2, "mmmm" );
+
+c) Obtenemos lo mismo que si fuese .toString al cada metodo tener su propio metodo toString imprime lo mismo.
+
+d) Los objetos que implementan la interfaz Imponible podrían haber sido declarados en un Array de Imponibles.
+
+e) Si funcionará, estamos llamando al metodo toString de la clase que en como si llamasemos al metodo de Object ya que lo hemos sobreescrito en esa Clase.
+
